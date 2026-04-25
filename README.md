@@ -1,5 +1,7 @@
 # Command Panel (Windows batch)
 
+Disclaimer: There’s a tiny ASCII “middle finger” easter egg in the repo — purely jokey and non-executable. Remove it if you prefer a cleaner copy.
+
 This repository contains a small Windows batch-based media command panel. It is implemented as batch scripts and is intended to run on Windows only.
 
 Important safety note
