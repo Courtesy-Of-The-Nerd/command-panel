@@ -1,0 +1,38 @@
+🛠️ Command Panel (Linux/Bash)
+Disclaimer: There is a tiny ASCII easter egg in the repository—purely for humor and completely non-executable. Feel free to remove it if you want a cleaner copy.
+
+This repository contains a lightweight, terminal-based media command panel. It is implemented as a Bash script and is intended to run on Linux-based systems (Ubuntu, Mint, Arch, etc.).
+
+🛡️ Safety & Permissions Note
+Since this script manages system files and power settings, some security configurations or "Sudo" prompts may appear.
+
+Transparency: The script is plain text. You can (and should) review the .sh file in any text editor (like Nano or Gedit) before running it.
+
+Elevated Privileges: The System Repair and Power Down functions use sudo. This is required to clear system caches and signal the hardware to shut down, similar to "Run as Administrator" on Windows.
+
+📁 Required Folders (Linux)
+The Jukebox and Video players expect two directories to exist in your Home folder. The script is designed to create these automatically on the first run, but you can create them manually by running:
+
+Bash
+mkdir -p ~/musicc ~/videoo
+🚀 Quick Start (Linux)
+Clone the repository:
+
+Bash
+git clone https://github.com/Courtesy-Of-The-Nerd/command-panel-v1.0.git
+cd command-panel-v1.0
+Grant Execution Permissions:
+Linux requires you to explicitly allow scripts to run:
+
+Bash
+chmod +x center.sh
+Launch the Panel:
+
+Bash
+./center.sh
+📝 Notes
+Dependencies: This script uses vlc for media playback. Ensure it is installed (sudo apt install vlc on Debian-based systems).
+
+Cross-Platform: This specific version is for Linux. If you are on Windows, please use the .bat version found in the Windows branch of this repo.
+
+The "Matrix" Mode: Option 6 is a visual stress test. If your terminal text looks strange after running it, simply type reset and hit Enter to fix it.
